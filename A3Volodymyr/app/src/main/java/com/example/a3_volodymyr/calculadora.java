@@ -224,7 +224,9 @@ public class calculadora extends AppCompatActivity {
             seconds = (int)(time/1000);
             miliseconds = (int)(time%1000);
             String resultadoTiempo=String.format("%4d,%03d", seconds, miliseconds);
-            Toast.makeText(getApplicationContext(),R.string.inic+resultadoTiempo+R.string.fin,Toast.LENGTH_SHORT).show();
+
+
+            Toast.makeText(getApplicationContext(),getResources().getString(R.string.inic)+resultadoTiempo +getResources().getString(R.string.fin),Toast.LENGTH_SHORT).show();
             Log.d("ThreadANR","onPostExecute");
             sendToFirebase("SYNC",resultadoTiempo);
         }
@@ -274,7 +276,7 @@ public class calculadora extends AppCompatActivity {
         seconds = (int)(time/1000);
         miliseconds = (int)(time%1000);
         String resultadoTiempo=String.format("%4d,%03d", seconds, miliseconds);
-        Toast.makeText(getApplicationContext(),R.string.inic+resultadoTiempo+R.string.fin,Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),getResources().getString(R.string.inic)+resultadoTiempo +getResources().getString(R.string.fin),Toast.LENGTH_SHORT).show();
         Log.d("ThreadANR","Finalizado en hilo presente");
         sendToFirebase("MAIN",resultadoTiempo);
     }
@@ -295,7 +297,7 @@ public class calculadora extends AppCompatActivity {
                 sendToFirebase("NEWT",resultadoTiempo);
                 runOnUiThread(new Runnable() {
                     public void run() {
-                        Toast.makeText(getApplicationContext(),R.string.inic+resultadoTiempo+R.string.fin,Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),getResources().getString(R.string.inic)+resultadoTiempo +getResources().getString(R.string.fin),Toast.LENGTH_SHORT).show();
                     }
                 });
             }
