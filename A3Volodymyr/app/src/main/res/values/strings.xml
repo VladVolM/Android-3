@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">A3-Volodymyr</string>
+    <string name="autor">Autor: Volodymyr Molchkov Volkogon</string>
+    <string name="salir">Salir</string>
+    <string name="libre">Libre</string>
+    <string name="listado">Listado</string>
+    <string name="calculo">Calculo</string>
+    <string name="error_carga">Error sobrearga, reinicio!</string>
+    <string name="div_cero">Error dividir entre cero</string>
+    <string name="inic">Clave Generada en </string>
+    <string name="fin"> segundos</string>
+    <string name="clockwise">clockwise</string>
+    <string name="zoom">zoom</string>
+    <string name="move">move</string>
+    <string name="slide">slide</string>
+    <string name="fade">fade</string>
+    <string name="blink">blink</string>
+    <string name="ladrillo">ladrillo</string>
+    <string name="nombre">Nombre:</string>
+    <string name="valor">Fecha:</string>
+    <string-array name="dos">
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+    </string-array>
+    <string name="tiempo">Tiempo:</string>
+</resources>

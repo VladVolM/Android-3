@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A3-Володимир</string>
+    <string name="autor">Саздател: Володимир Молчков Волкогон</string>
+    <string name="salir">Выход</string>
+    <string name="libre">Свабодный</string>
+    <string name="listado">Просмотр</string>
+    <string name="calculo">Расшйот</string>
+    <string name="error_carga">Ошыбка перелив, перезагрузка</string>
+    <string name="div_cero">Ошыбка делить на нол</string>
+    <string name="inic">"Создався ключ в "</string>
+    <string name="fin">" секунд"</string>
+    <string name="clockwise">Крутится</string>
+    <string name="zoom">Зум</string>
+    <string name="move">Движение</string>
+    <string name="slide">Раздавить</string>
+    <string name="fade">Изшеснуть</string>
+    <string name="blink">Блымкать</string>
+    <string name="ladrillo">Керпич</string>
+    <string name="nombre">" Имя:"</string>
+    <string name="valor">Момент:</string>
+    <string name="tiempo">Время:</string>
+</resources>
